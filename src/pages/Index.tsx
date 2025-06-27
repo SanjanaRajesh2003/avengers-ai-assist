@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Bot, Zap, Target, GitMerge } from "lucide-react";
@@ -45,11 +44,18 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-blue-300">Chatbot</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Advanced AI-powered conversational agent that eliminates tickets through intelligent automation and instant customer support.
+                    
                   </p>
-                  <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30">
-                    View Project
-                  </Button>
+                  <a
+                    href="https://www.google.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30">
+                      View Project
+                    </Button>
+                  </a>
                 </Card>
 
                 {/* FRT Card */}
@@ -59,11 +65,18 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-teal-300">Auto FRT</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Lightning-fast First Response Time automation that instantly acknowledges and categorizes incoming support requests.
+                    
                   </p>
-                  <Button className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/30">
-                    View Project
-                  </Button>
+                  <a
+                    href="https://www.google.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Button className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/30">
+                      View Project
+                    </Button>
+                  </a>
                 </Card>
               </div>
             </div>
@@ -92,11 +105,18 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-red-300">Auto Triage</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Heroic AI system that assembles the perfect response team by automatically prioritizing and routing tickets to the right agents.
+                   
                   </p>
-                  <Button className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30">
-                    View Project
-                  </Button>
+                  <a
+                    href="https://www.google.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Button className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30">
+                      View Project
+                    </Button>
+                  </a>
                 </Card>
 
                 {/* Similar Ticket Card */}
@@ -106,11 +126,18 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-orange-300">Similar Ticket</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Mighty pattern recognition system that unites similar support cases, providing instant solutions based on past victories.
+                    
                   </p>
-                  <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30">
-                    View Project
-                  </Button>
+                  <a
+                    href="https://www.google.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30">
+                      View Project
+                    </Button>
+                  </a>
                 </Card>
               </div>
             </div>
