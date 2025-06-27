@@ -1,8 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Bot, Zap, Target, GitMerge } from "lucide-react";
+
 const Index = () => {
-  return <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-red-900 text-white overflow-hidden relative">
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-red-900 text-white overflow-hidden relative">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.1),transparent)] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(239,68,68,0.1),transparent)] pointer-events-none"></div>
@@ -25,9 +28,14 @@ const Index = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.05),transparent)]"></div>
             
             <div className="relative z-10 h-full flex flex-col">
-              <h2 className="text-4xl font-bold text-center mb-12 text-blue-300 tracking-widest">
-                TICKET TERMINATORS
-              </h2>
+              <div className="text-center mb-12">
+                <h2 className="text-4xl font-bold text-blue-300 tracking-widest leading-tight">
+                  TICKET
+                </h2>
+                <h2 className="text-4xl font-bold text-blue-300 tracking-widest leading-tight">
+                  TERMINATORS
+                </h2>
+              </div>
               
               <div className="flex-1 flex flex-col justify-center space-y-8">
                 {/* Chatbot Card */}
@@ -37,7 +45,8 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-blue-300">Chatbot</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                </p>
+                    Advanced AI-powered conversational agent that eliminates tickets through intelligent automation and instant customer support.
+                  </p>
                   <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30">
                     View Project
                   </Button>
@@ -50,7 +59,8 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-teal-300">Auto FRT</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                </p>
+                    Lightning-fast First Response Time automation that instantly acknowledges and categorizes incoming support requests.
+                  </p>
                   <Button className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/30">
                     View Project
                   </Button>
@@ -65,9 +75,14 @@ const Index = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,68,68,0.1),transparent)]"></div>
             
             <div className="relative z-10 h-full flex flex-col">
-              <h2 className="text-4xl font-bold text-center mb-12 text-red-300 tracking-widest">
-                TICKET AVENGERS
-              </h2>
+              <div className="text-center mb-12">
+                <h2 className="text-4xl font-bold text-red-300 tracking-widest leading-tight">
+                  TICKET
+                </h2>
+                <h2 className="text-4xl font-bold text-red-300 tracking-widest leading-tight">
+                  AVENGERS
+                </h2>
+              </div>
               
               <div className="flex-1 flex flex-col justify-center space-y-8">
                 {/* Auto Triage Card */}
@@ -77,7 +92,8 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-red-300">Auto Triage</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                </p>
+                    Heroic AI system that assembles the perfect response team by automatically prioritizing and routing tickets to the right agents.
+                  </p>
                   <Button className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30">
                     Learn More
                   </Button>
@@ -90,7 +106,8 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-orange-300">Similar Ticket</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                </p>
+                    Mighty pattern recognition system that unites similar support cases, providing instant solutions based on past victories.
+                  </p>
                   <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30">
                     Learn More
                   </Button>
@@ -100,6 +117,8 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
