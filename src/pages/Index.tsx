@@ -95,7 +95,7 @@ const Index = () => {
                     Heroic AI system that assembles the perfect response team by automatically prioritizing and routing tickets to the right agents.
                   </p>
                   <Button className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30">
-                    Learn More
+                    View Project
                   </Button>
                 </Card>
 
@@ -109,7 +109,7 @@ const Index = () => {
                     Mighty pattern recognition system that unites similar support cases, providing instant solutions based on past victories.
                   </p>
                   <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30">
-                    Learn More
+                    View Project
                   </Button>
                 </Card>
               </div>
