@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Bot, Zap, Target, GitMerge } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-red-900 text-white overflow-hidden relative">
+  return <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-red-900 text-white overflow-hidden relative">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.1),transparent)] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(239,68,68,0.1),transparent)] pointer-events-none"></div>
@@ -40,8 +37,7 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-blue-300">Chatbot</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Advanced AI conversational interface that eliminates support tickets through intelligent real-time problem resolution and predictive assistance.
-                  </p>
+                </p>
                   <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30">
                     View Project
                   </Button>
@@ -51,11 +47,10 @@ const Index = () => {
                 <Card className="bg-gray-800/80 border-2 border-teal-500/50 p-6 hover:border-teal-400 hover:bg-gray-800/90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-teal-500/20 group backdrop-blur-sm">
                   <div className="flex items-center mb-4">
                     <Zap className="w-8 h-8 text-teal-400 mr-3 group-hover:text-teal-300 transition-colors" />
-                    <h3 className="text-2xl font-bold text-teal-300">FRT</h3>
+                    <h3 className="text-2xl font-bold text-teal-300">Auto FRT</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    First Response Time optimization protocol that neutralizes support delays through quantum-speed ticket processing and instant solution deployment.
-                  </p>
+                </p>
                   <Button className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-500 hover:to-cyan-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/30">
                     View Project
                   </Button>
@@ -82,8 +77,7 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-red-300">Auto Triage</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    Like Iron Man's targeting system, this heroic AI instantly categorizes and prioritizes support tickets with precision, ensuring critical issues get immediate attention.
-                  </p>
+                </p>
                   <Button className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-500 hover:to-red-700 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30">
                     Learn More
                   </Button>
@@ -96,8 +90,7 @@ const Index = () => {
                     <h3 className="text-2xl font-bold text-orange-300">Similar Ticket</h3>
                   </div>
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    With the tactical genius of Captain America, this system identifies patterns and connects similar support cases to accelerate resolution times and knowledge sharing.
-                  </p>
+                </p>
                   <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 border-0 text-white font-semibold py-3 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/30">
                     Learn More
                   </Button>
@@ -107,8 +100,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
